@@ -5,7 +5,7 @@ async function checkUserCredsForRewards(userAddress: Address): Promise<{
   has2of8: boolean;
   has4of4: boolean;
   has8of8: boolean;
-  totalCount: number; // 追加: 実際の保有数
+  totalCount: number;
 }> {
   // Check all 8 credentials first
   // example id: 8 https://cyber.terminal.phi.box/cred/8
